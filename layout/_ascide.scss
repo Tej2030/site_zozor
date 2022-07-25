@@ -1,0 +1,47 @@
+.ascide{
+    width: 25%;
+    height: auto;
+    background-color: #676666;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -52%;
+    margin-right: 5%;
+    box-shadow: 0 5px 10px #000;
+    &_bulle{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-top: 13%;
+        margin-left: -40px;
+    }
+
+    &__tit{
+        text-align: center;
+        p{
+            color: $blanc;
+            font-size: 30px;
+        }
+        img{
+            margin-top: -10px;
+            width: 250px;
+            height: 200px;
+        }
+    }
+    &__para{
+        width: 95%;
+        margin-left: 2.5% ;
+        p{
+            text-align: justify;
+            color: white;
+        }
+    }
+
+    &__icone{
+        display: flex;
+        justify-content: center;
+        img{
+            margin-right: 10px;
+        }
+    }
+}
