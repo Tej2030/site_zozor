@@ -1,0 +1,14 @@
+{
+  "name": "site_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch site.scss:style.css",
+    "prefix": "postcss style.css --use autoprefixer -d prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+
+}

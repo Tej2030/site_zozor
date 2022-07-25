@@ -1,0 +1,46 @@
+.footer{
+  background-image: url("../images/images_site/fond_jaune.png");
+    background: url("../images/images_site/separateur.png") repeat-x top;
+    display: flex;
+    padding-top: 10px;
+    &__elmt1{
+       margin-right: 50px;
+       width: 35%; 
+       margin-left: 5%;
+       &__titre{
+        font-size: 20px;
+        }
+       p{
+        font-size: 15px;
+       }
+    }
+    &__elmt2{
+        width: 35%; 
+        &__titre{
+            font-size: 20px;
+        }
+        margin-right: 50px;
+        img{
+            border: 1px solid $noir;
+        }
+    }
+    &__elmt3{
+        &__titre{
+            font-size: 20px;
+        }
+        
+        &__partie{
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            flex-flow: column wrap;
+            p{
+                margin-bottom: -20px;
+                margin-right: 50px;
+                font-size: 20px;
+                color: $bordeau
+            }
+        }
+       
+    }
+}
