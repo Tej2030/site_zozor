@@ -70,3 +70,57 @@ body{
     }
 }
 
+.toggle{
+    display: none;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+} 
+
+@media all and (max-width: 770px){
+    .toggle{
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        
+        &__ouvrir{
+            display: block;
+        }
+
+        &__fermer{
+            display: none;
+        }
+    }
+
+    .open .ouvrir{
+        display: none;
+    }
+
+    .open .fermer{
+        display: block;
+    }
+
+    ul{
+        position: absolute;
+        z-index: 2;
+        margin-top: 0px;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background: lighten($header-color, 3);
+        padding-top: 60px;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s;
+        li{
+            margin-bottom: 50px;
+        }
+    }
+    
+    .open ul{
+        transform: translateX(0);
+    }
+   
+}

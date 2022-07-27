@@ -234,4 +234,52 @@ body {
   width: 15px;
   height: 15px;
   margin-left: 10px;
+}
+
+.toggle {
+  display: none;
+}
+.toggle img {
+  width: 40px;
+  height: 40px;
+}
+
+@media all and (max-width: 770px) {
+  .toggle {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+  }
+  .toggle__ouvrir {
+    display: block;
+  }
+  .toggle__fermer {
+    display: none;
+  }
+  .open .ouvrir {
+    display: none;
+  }
+  .open .fermer {
+    display: block;
+  }
+  ul {
+    position: absolute;
+    z-index: 2;
+    margin-top: 0px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #08057f;
+    padding-top: 60px;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s;
+  }
+  ul li {
+    margin-bottom: 50px;
+  }
+  .open ul {
+    transform: translateX(0);
+  }
 }/*# sourceMappingURL=dark.css.map */
