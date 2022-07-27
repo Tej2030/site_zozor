@@ -1,11 +1,11 @@
 .ascide{
     width: 25%;
     height: auto;
-    background-color: #676666;
+    background-color: $color-ascide;
     padding: 10px;
     border-radius: 10px;
     float: right;
-    margin-top: -52%;
+    margin-top: -35%;
     margin-right: 5%;
     box-shadow: 0 5px 10px #000;
     &_bulle{
@@ -34,6 +34,7 @@
         p{
             text-align: justify;
             color: white;
+            font-size: 20px;
         }
     }
 

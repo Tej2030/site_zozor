@@ -2,6 +2,7 @@
     width: 60%;
     margin-left: 5%;
     margin-top: 20px;
+    color: $noir;
     &__titre{
         width: 100%;
         p{
@@ -20,7 +21,7 @@
 
     &__flottant{
         position: absolute;
-        margin-top: 20px;
-        margin-left: 40%;
+        margin-top: 25px;
+        margin-left: 45%;
     }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -16,10 +16,11 @@
         </div>
         <div class="header__nav">
             <ul>
-                <li class="header__nav__acive"><a href="#">ACCEUIL</a></li>
+                <li class="header__nav__active"><a href="#">ACCEUIL</a></li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">CV</a></li>
                 <li><a href="#">CONTACT</a></li>
+                <li class="header__nav__theme" onclick="changeFile()"><img class="imgTheme" src="images/icon/sun.png" alt=""></li>
             </ul>
         </div>
     </header>
@@ -138,5 +139,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="site.js"></script>
 </body>
 </html>

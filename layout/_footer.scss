@@ -1,8 +1,11 @@
 .footer{
-  background-image: url("../images/images_site/fond_jaune.png");
-    background: url("../images/images_site/separateur.png") repeat-x top;
+    width: 100%;
+    margin-top: -5px;
+    padding: 20px 0px;
+    background: $header-color url("../images/images_site/separateur.png") repeat-x top;
     display: flex;
     padding-top: 10px;
+    color: $noir;
     &__elmt1{
        margin-right: 50px;
        width: 35%; 
@@ -38,7 +41,7 @@
                 margin-bottom: -20px;
                 margin-right: 50px;
                 font-size: 20px;
-                color: $bordeau
+                color: $foot
             }
         }
        
