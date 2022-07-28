@@ -27,7 +27,7 @@ body{
 }
 
 .section1{
-    width: 90%;
+    width: 91%;
     margin-left: 5%;
     border-radius: 10px;
    &__fond{
@@ -44,7 +44,7 @@ body{
         border-bottom-right-radius: 10px;
         margin-top: -70px;
         height: 70px;
-        width: 89.3%;
+        width: 90%;
         background: linear-gradient($degrade, $degrade);
         p{
             color: $blanc;
@@ -89,8 +89,9 @@ body{
         
         &__ouvrir{
             display: block;
+            transform: rotate(360);
         }
-
+        
         &__fermer{
             display: none;
         }
@@ -111,7 +112,7 @@ body{
         top: 0;
         right: 0;
         width: 100%;
-        background: lighten($header-color, 3);
+        background: #f4f2aaea;
         padding-top: 60px;
         flex-direction: column;
         transform: translateX(100%);
