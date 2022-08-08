@@ -1,0 +1,16 @@
+{ 
+  "name": "tab1", 
+  "Acceuil": "Home",
+
+  "name2": "tab2",
+  "Blog": "Blog",
+
+  "name3": "tab3",
+  "CV": "Cv",
+
+  "name4": "tab2",
+  "Contact": "Contact",
+
+  "name5": "para",
+  "paragraphe": "Throwback to my vacation in the United States..."
+}
